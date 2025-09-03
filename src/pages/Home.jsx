@@ -8,7 +8,7 @@ const Home = () => {
   const tabs = ["All", "Fedramp High"];
 
   return (
-    <div className="rounded-xl p-4 h-[85%] items-center bg-[#FFFFFF] m-4">
+    <div className="rounded-xl p-4 h-full bg-[#ffffff] mx-4 mt-4 mb-2">
       <div className="relative w-full flex gap-10 font-light text-sm border-b border-gray-200">
         {tabs.map((tab) => (
           <button

@@ -6,9 +6,9 @@ import { Outlet } from "react-router-dom";
 function RootLayout() {
   return (
     <>
-      <div className="flex w-screen bg-[#EEF2FF] h-screen">
+      <div className="flex font-poppins w-screen bg-[#EEF2FF] h-screen">
         <SideBar />
-        <div className="flex-1 w-full h-full">
+        <div className="flex-1 w-full h-full flex flex-col">
           <NavBar />
           <Outlet />
         </div>

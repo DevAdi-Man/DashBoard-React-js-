@@ -139,7 +139,7 @@ const SideBar = () => {
 
   return (
     <aside
-      className={`${
+      className={`mb-1 ${
         isOpen ? "w-72" : "w-25"
       } h-screen bg-[#5E43D8] text-nowrap rounded-br-2xl rounded-tr-2xl flex flex-col transition-all duration-500 ease-in-out`}
     >
